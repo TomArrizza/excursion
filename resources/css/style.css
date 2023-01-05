@@ -5,13 +5,17 @@ html, body {
 
 
 
+
 }
 
 header { 
     background-color: black;
     text-align: center;
-    position: absolute;
+   
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 header  h1 {
      font-family: Verdana;
@@ -19,12 +23,83 @@ header  h1 {
      font-size: 50px;
      color: white;
      text-align: center;
+     display: inline-flex;
 
 }
 header a { 
+    display: inline-flex;
     color: aquamarine;
     font-family: Verdana;
      font-weight: normal ;
      
+     
 
+}
+
+/* first vid */
+
+#first-vid  { 
+    position: relative;
+    top: auto;
+    background-color: black;
+
+    
+
+}
+#vid-con { 
+    display:flex;
+    justify-content: center;
+    
+}
+
+#vid-con video { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#travel-guide { 
+    position: relative;
+    top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+
+
+}
+#travel-guide h3 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    
+
+}
+#travel-guide p {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+
+}
+
+#landscape-img {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#icon { 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#icon  img { 
+    padding-top: 30px;
+    width: 60px;
+    height: 100px;
 }
