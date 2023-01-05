@@ -103,3 +103,47 @@ header a {
     width: 60px;
     height: 100px;
 }
+
+#final-text {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#final-text h1 { 
+     font-family: Verdana;
+     font-weight: normal ;
+     font-size: 50px;
+     color: white;
+     
+     
+
+}
+#final-text a {
+    font-family: Verdana;
+     font-weight: normal;
+     color: white;
+
+    color: aquamarine;
+
+}
+
+footer { 
+    font-family: Verdana;
+    position: relative;
+    top: auto;
+    display: flex;
+    font-size: 16px;
+    background-color: black;
+    text-align: right;
+    color: gray;
+    padding-right: 10px;
+    justify-content: flex-end;
+    
+
+}
+
